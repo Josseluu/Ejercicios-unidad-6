@@ -16,13 +16,13 @@ public class Ejercicio5 {
             System.out.println("4. Salir");
             System.out.print("Seleccione una opción: ");
             opcion = scanner.nextInt();
-            scanner.nextLine(); // Consumir la nueva línea después de nextInt()
+            scanner.nextLine();
 
             switch (opcion) {
                 case 1:
                     System.out.print("Introduce la posición donde quieres insertar la cadena: ");
                     int posicion = scanner.nextInt();
-                    scanner.nextLine(); // Consumir la nueva línea después de nextInt()
+                    scanner.nextLine();
                     System.out.print("Introduce la cadena a insertar: ");
                     String cadena = scanner.nextLine();
                     if (posicion >= 0 && posicion <= listaCadenas.size()) {
